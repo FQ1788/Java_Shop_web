@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+	margin: 0; /* 設定外框屬性 */
+	padding: 0; /* 設定內間距 */
+	box-sizing: border-box; /*調整區塊的內距與邊框計算方式*/
+}
+
+body{
+	min-height: 100vh; /*最小高度*/
+	background: #56a7f3; /*背景顏色*/
+	display: flex; /*彈性布局置中*/
+	font-family: sans-serif; /*設定字型*/
+}
+
+.container{
+		margin: auto;  /*設定外邊框的屬性，預設置中*/
+		width: 500px; /*設定寬度*/
+		max-width: 90%; /*設定寬度的上限*/
+}
+
+.container form{
+	width: 100%; /*設定寬*/
+	height: 100%; /*設定長*/
+	padding: 20px; /*設定間距*/
+	background: rgb(250, 250, 230); /*背景顏色*/
+	border-radius: 5px; /*外框四個角的弧度*/
+	box-shadow: 0px 8px 16px rgba(0,0,0,.3); /*設定陰影*/
+}
+.container form h2{
+	text-align: center; /*設定文字置中*/
+	margin-bottom:24px; /*設定與上方間距24px*/
+	color: rgb(107, 107, 247); /*字體顏色*/
+	font-family:"Microsoft JhengHei" ;
+	font-weight:bold;
+	
+}
+.container form form-control {
+	width: 100%;  /*設定寬*/
+	height: 40px; /*設定長*/
+	background: rgb(250, 250, 229);  /*背景顏色*/
+	border-radius: 4px; /*外框角的弧度*/
+	border: 1px solid sliver; 
+	margin: 10px 0 10px 0;  
+	padding: 0 10px ; /*與框的間距*/
+}
+.container form .btn{
+	margin-left: 50%; /*距離左邊 50%*/
+	transform:translateX(-50%);
+	width: 120px; 
+	height: 34px;
+	border: none;
+	outline: none;
+	background: rgb(255, 255, 252);
+	cursor: pointer;
+	font-size: 16px;
+	text-transform: "Microsoft JhengHei",bold;
+	color: #ff3131;
+	border-radius: 4px;
+	transition:.3s;
+
+}
+
+.container form div .text{
+	color: rgb(107, 107, 247); /*字體顏色*/
+	font-family:"Microsoft JhengHei" ;
+	font-weight:bold;
+}

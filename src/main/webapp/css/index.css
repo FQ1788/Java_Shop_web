@@ -1,0 +1,13 @@
+@charset "UTF-8";
+	.out{
+		margin: auto;  /*設定外邊框的屬性，預設置中*/
+		width: 500px; /*設定寬度*/
+		max-width: 90%; /*設定寬度的上限*/
+		
+	}
+	body{
+		min-height: 100vh; /*最小高度*/
+		background: #FFFCEC	; /*背景顏色*/
+		display: flex; /*彈性布局置中*/
+		font-family: sans-serif; /*設定字型*/
+	}
