@@ -10,9 +10,9 @@ import java.sql.Statement;
 
 public class DBUtil {
 	private final String DBU_DRIVER="com.mysql.cj.jdbc.Driver";
-	private final String DBU_URL="jdbc:mysql://127.0.0.1:3306/demo01?serverTimezone=UTC&useSSL=false";
-	private final String DBU_USER="root";
-	private final String DBU_PASS="tim10270415";
+	private final String DBU_URL="jdbc:mysql://DBserver?serverTimezone=UTC&useSSL=false";
+	private final String DBU_USER="DB_USER";
+	private final String DBU_PASS="DB_PASSWORED";
 	private Connection conn;
 	
 	private DBUtil() {
